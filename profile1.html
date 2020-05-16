@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Anime Zone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Profile 1" content="anime_mama's profile page on Anime Zone.">
+    <!--Address Bar Theme Color-->
+    <meta name="theme-color" content="#2785CD" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/lightbox.css">
+    <link rel="manifest" href="/manifest.json">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/sitelogo.png">
+    <!--Roboto and Oswald web fonts via Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto&display=swap" rel="stylesheet">
+    <!--Font Awesome Icons kit code link-->
+    <script src="https://kit.fontawesome.com/be64fca70a.js" crossorigin="anonymous"></script>
+  </head>
+  <!--Profile 1 page body section-->
+  <body>
+      <div id="wrapper">
+    <!--Profile 1 page header section-->
+    <header>
+      <a href="index.html" aria-label="Site logo">
+        <img id="logo" src="images/sitelogo.png" alt="Home"></a>
+        <h1>Anime Zone</h1>
+    </header>
+    <!--Profile 1 user content-->
+    <main id="profilePage">
+      <p class="profileP">anime_mama</p><br>
+      <img src="images/wolfgirl.jpg" alt="user anime_mama" class="profilePic">
+      <p class="follow"><strong>50</strong><br>followers</p>
+      <p class="follow"><strong>30</strong><br>following</p>
+      <a href="profile1.html" class="followMe" aria-label="Follow">Follow</a>
+      <hr>
+      <!--Profile 1 short bio and edit profile button-->
+      <p class="bio">Anime lover working at a design studio in the USA.<br>I &hearts; Fairy Tail and lofi chill music.</p><br>
+      <a href="settings1.html" class="editProfile" aria-label="Edit profile">Edit profile</a><br>
+      <hr>
+      <!--Create a post via profile page-->
+      <div class="myPost">
+        <form method="get" class="btnForm" action="profile1.html">
+          <input type="text" placeholder="Create a post">
+          <button type="submit"><i aria-hidden="true" class="fas fa-plus-circle"></i></button>
+        </form>
+      </div><br>
+      <!--Button to Bookmark page-->
+      <a href="bookmark.html" class="bookmark" aria-label="Bookmark">Bookmarks</a>
+      <!--Image grid on profile 1 page-->
+      <div class="profileGrid">
+        <div class="profileColumn">
+          <a href="images/erza_gray.jpg" aria-label="Erza and Gray" data-lightbox="profileImgs" data-title="Erza and Gray">
+            <img src="images/erza_gray.jpg" alt="Erza and Gray">
+          </a>
+          <a href="images/erza.jpg" aria-label="Erza" data-lightbox="profileImgs" data-title="Erza">
+            <img src="images/erza.jpg" alt="Erza">
+          </a>
+          <a href="images/fairytail.jpg" aria-label="Fairy Tail" data-lightbox="profileImgs" data-title="Fairy Tail">
+            <img src="images/fairytail.jpg" alt="Fairy Tail">
+          </a>
+          <a href="images/otaku.jpg" aria-label="Wotakoi anime" data-lightbox="profileImgs" data-title="Wotakoi: Love Is Hard for Otaku">
+            <img src="images/otaku.jpg" alt="Wotakoi: Love Is Hard for Otaku">
+          </a>
+          <a href="images/asuna_kirito2.jpg" aria-label="Asuna and Kirito" data-lightbox="profileImgs" data-title="Asuna and Kirito">
+            <img src="images/asuna_kirito2.jpg" alt="Asuna and Kirito">
+          </a>
+          <a href="images/wolfgirl.jpg" aria-label="Wolf girl" data-lightbox="profileImgs" data-title="Wolf Girl">
+            <img src="images/wolfgirl.jpg" alt="Wolf girl">
+          </a>
+        </div>
+      </div>
+    </main>
+    <!--Icon navigation menu on Profile 1 page-->
+      <ul>
+        <li><a class="navBtn" href="index.html"><i class="fas fa-home fa-lg"></i><br>Home</a></li>
+        <li><a class="navBtn" href="search.html"><i class="fas fa-search fa-lg"></i><br>Search</a></li>
+        <li><a class="navBtn" href="notifications.html"><i class="far fa-bell fa-lg"></i><br>Notifications</a></li>
+        <li><a class="navBtn" href="profile1.html"><i class="fas fa-user fa-lg"></i><br>Profile</a></li>
+      </ul>
+    </div>
+    <!--External lightbox script file-->
+    <script src="scripts/lightbox-plus-jquery.js"></script>
+  </body>
+</html>

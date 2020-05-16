@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Anime Zone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Search page" content="Search for anime content.">
+    <!--Address Bar Theme Color-->
+    <meta name="theme-color" content="#2785CD" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/lightbox.css">
+    <link rel="manifest" href="/manifest.json">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/sitelogo.png">
+    <!--Roboto and Oswald web fonts via Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto&display=swap" rel="stylesheet">
+    <!--Font Awesome Icons kit code link-->
+    <script src="https://kit.fontawesome.com/be64fca70a.js" crossorigin="anonymous"></script>
+  </head>
+  <!--Search page body section-->
+  <body>
+      <div id="wrapper">
+        <!--Search page header section-->
+        <header>
+          <a href="index.html">
+            <img id="logo" src="images/sitelogo.png" alt="Home"></a>
+            <h1>Anime Zone</h1>
+        </header>
+        <!--Search box on search page-->
+      <div class="search">
+        <form method="get" class="searchBox">
+        <input type="text" placeholder="Search">
+        <button type="submit" class="searchBtn"><i aria-hidden="true" class="fas fa-search"></i></button>
+        </form>
+      </div>
+    <!--Main content on search page-->
+    <main id="searchPage">
+      <!--Hashtags under search box-->
+      <a class="hashtag2" href="search.html" aria-label="Hashtag trending anime">#trendinganime</a>
+      <a class="hashtag2" href="search.html" aria-label="Hashtag anime art">#animeart</a>
+      <!--Image grid on search page with lightbox-->
+      <div class="imageGrid">
+        <div class="imageColumn">
+          <a href="images/wolfgirl.jpg" aria-label="Wolf girl" data-lightbox="searchImgs" data-title="Wolf Girl">
+            <img src="images/wolfgirl.jpg" alt="Wolf girl">
+          </a>
+          <a href="images/otaku.jpg" aria-label="Wotakoi anime" data-lightbox="searchImgs" data-title="Wotakoi: Love Is Hard for Otaku">
+            <img src="images/otaku.jpg" alt="Wotakoi: Love Is Hard for Otaku">
+          </a>
+          <a href="images/girlwithdog.jpg" aria-label="Girl with dog" data-lightbox="searchImgs" data-title="Girl with Dog">
+            <img src="images/girlwithdog.jpg" alt="Girl with dog">
+          </a>
+          <a href="images/wolfrain.jpg" data-lightbox="searchImgs" data-title="Wolf's Rain">
+            <img src="images/wolfrain.jpg" alt="Wolf's Rain">
+          </a>
+          <a href="images/fairytail.jpg" aria-label="Fairy Tail anime" data-lightbox="searchImgs" data-title="Fairy Tail">
+            <img src="images/fairytail.jpg" alt="Fairy Tail">
+          </a>
+          <a href="images/tree.jpg" aria-label="Tree next to water" data-lightbox="searchImgs" data-title="Tree">
+            <img src="images/tree.jpg" alt="Tree next to water">
+          </a>
+          <div class="iframe-container">
+            <iframe class="searchVideo" src="https://www.youtube.com/embed/m4en7ZkhX8c" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+      <!--Icon navigation menu on home page-->
+      <ul>
+        <li><a class="navBtn" href="index.html"><i class="fas fa-home fa-lg"></i><br>Home</a></li>
+        <li><a class="navBtn" href="search.html"><i class="fas fa-search fa-lg"></i><br>Search</a></li>
+        <li><a class="navBtn" href="notifications.html"><i class="far fa-bell fa-lg"></i><br>Notifications</a></li>
+        <li><a class="navBtn" href="profile1.html"><i class="far fa-user fa-lg"></i><br>Profile</a></li>
+      </ul>
+    </div>
+    <!--External main and lightbox script files-->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/lightbox-plus-jquery.js"></script>
+  </body>
+</html>

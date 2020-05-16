@@ -1,0 +1,1390 @@
+* {
+  box-sizing:  border-box;
+}
+/*----------CSS for ALL pages---------*/
+/*-----Background Page------*/
+body {
+  background-image: linear-gradient( #134266, #2785CD);
+  background-color: #FFFFFF;
+  margin: 0;width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  line-height: normal;
+}
+/*--Code for TESTING--
+* {
+  outline: 1px solid red;
+ }*/
+/*----div Wrapper Section----*/
+#wrapper {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  background-color: #FFFFFF;
+}
+/*----Header Section------*/
+header {
+  background-color: #3C91D2;
+  opacity: 95%;
+  text-align: left;
+  font-size: 1em;
+}
+/*---logo returns users to homepage--*/
+#logo {
+  width: 6%;
+  height: auto;
+  margin: 1.5% 0 1.5% 1.5%;
+  padding: 1px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+h1 {
+  margin: 2.5% 0 0.4% 0.5%;
+  padding-top: 1%;
+  padding-left: 0;
+  font-family: 'Oswald', Impact, serif;
+  font-size: 2.2em;
+  color: #000000;
+  display: inline-block;
+}
+/*-----------Login Page-----------*/
+/*------Login Body-----*/
+body.logIn {
+  background-color: #2785CD;
+  background-image: none;
+}
+/*------Login div Wrap-----*/
+#wrap {
+  width: 100%;
+  background-color: #2785CD;
+  text-align: center;
+}
+/*---Div element for title, logo, and form---*/
+#log {
+  text-align: center;
+}
+/*------Login Header-----*/
+/*------Login Main Content----*/
+h2.login-title {
+  font-family: 'Oswald', Impact, serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 2.5em;
+  width: 100%;
+  display: inline-block;
+  margin: 2% 0 1% 0;
+  padding: 2%;
+}
+/*---Login Logo----*/
+#logo1 {
+  display: inline-block;
+  max-width: 7%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0.5% 0 2% 0;
+}
+/*------Login Form-------*/
+form.loginForm {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: auto;
+  padding: 5px;
+  border: none;
+  background-color: #2785CD;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5%;
+}
+#log label {
+  float: left;
+  display: block;
+  width: 10em;
+  padding-right: 8%;
+  text-align: left;
+  font-weight: bold;
+  margin: 5px 10px 5px 8px;
+}
+#log input {
+  display: inline-block;
+  width: 100%;
+  margin: 3%;
+  padding: 3%;
+  font-family: 'Roboto', sans-serif;
+}
+#log input[type="submit"] {
+  background-color: #1E2D3E;
+  opacity: 80%;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-size: 1em;
+  padding: 5%;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+a.login-btn1 {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.9em;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 2%;
+}
+a.login-btn2 {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.9em;
+  color: #FFFFFF;
+  text-align: right;
+  margin-left: 23%;
+  padding: 2%;
+}
+/*-----------Home Page----------------*/
+/*--main element on home page--*/
+#homePage {
+  margin: 5% 0 0 4%;
+  padding: 2%;
+}
+/*---User Posts on Homepage feed---*/
+/*----Avatar Images----*/
+img.profileAvtr {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  margin: 0.5% 0 1% 1%;
+  padding: 1px;
+  vertical-align: middle;
+}
+/*----User Links----*/
+a.userLink {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #000000;
+  text-align: left;
+  margin: 0.5% 0.5% 1.5% 0.5%;
+}
+/*---User Image posts---*/
+img.userPost {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*---Fontawesome icons---*/
+i {
+  display: block;
+  margin: 1.5% 2% 1% 2%;
+  font-size: 1.3em;
+  padding-bottom: 2px;
+}
+a i {
+  color: #000000;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+.fa-heart:hover {
+  color: red;
+}
+.fa-comment:hover {
+  background-color: #000000;
+  border-radius: 45px;
+}
+.fa-bookmark {
+  float: right;
+  margin-right: 44%;
+}
+.fa-bookmark:hover {
+  background-color: #000000;
+}
+/*---Likes counter button for user posts--*/
+#clickme, #clickme1 {
+  padding: 3px;
+  background: none;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #000000;
+  display: inline-block;
+  margin: 0.5%;
+  outline: none;
+}
+/*--User text under posts--*/
+p.userText {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  display: inline-block;
+  font-size:  1.1em;
+  margin: 0;
+}
+/*--Hashtags for user posts--*/
+a.hashtag {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #4267b2;
+  text-decoration: none;
+  margin: 1% 0.5% 2% 0.5%;
+  padding: 2% 0 2% 0;
+}
+/*---User Comments----*/
+a.userLink3 {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #000000;
+  text-align: left;
+  margin: 0 0.5% 0 0.5%;
+  padding-top: 10px;
+}
+/*--Second Post text---*/
+p.userText3 {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  display: inline-block;
+  font-size:  1.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 5%;
+}
+/*---Icon Navigation menu---*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  background-color: #3C91D2;
+  opacity: 95%;
+  color: #000000;
+  position: fixed;
+  bottom: 0;
+  width: 60%;
+  text-align: center;
+  }
+a.navBtn {
+  float: left;
+  display: inline-block;
+  width: 12.5%;
+  padding: 12px 0;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  margin-left: 10%;
+}
+li {
+  display: inline;
+}
+li a {
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  padding: 0 8%;
+}
+/*---------Search Page---------*/
+#searchPage {
+  padding: 1%;
+}
+a.hashtag2 {
+  font-size: 0.9em;
+  padding: 1%;
+  margin: 3% 0 2% 8%;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #4267b2;
+}
+/*--div for search box---*/
+.search {
+  text-align: center;
+  width: 100%;
+}
+form.searchBox {
+    text-align: center;
+    margin: auto;
+    height: auto;
+    padding-bottom: 4px;
+  }
+form.searchBox input[type=text] {
+  padding: 10px;
+  font-size: 0.9em;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid grey;
+  float: left;
+  width: 75%;
+  margin: 2% 0 1% 10%;
+  background-color: #FFFFFF;
+}
+form.searchBox button {
+  width: 4%;
+  padding: 8.5px;
+  float: left;
+  background: #1F6FAF;
+  color: white;
+  font-size: 0.9em;
+  border: 1px solid grey;
+  border-left: none;
+  margin: 2% 2% 0 0;
+}
+/*---Image Grid on Search Page---*/
+.imageGrid {
+  display: flex;
+  padding: 1px;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-left: 8%;
+}
+.imageColumn {
+  float: left;
+  padding: 5px;
+  width: 100%;
+}
+.imageGrid img {
+  max-width: 45%;
+  height: auto;
+  padding: 6px;
+}
+.imageGrid a {
+  text-decoration: none;
+}
+/*--iframe video on Search Page--*/
+.iframe-container {
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+iframe.searchVideo {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 45%;
+  padding: 0.5%;
+}
+/*-------Notifications Page------*/
+#notifyPage {
+  padding: 4%;
+}
+#notifyPage h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  display: inline-block;
+  font-size:  1.6em;
+  font-weight: bold;
+  margin: 4% 0 3% 2%;
+}
+/*----Profile Avatar Images-----*/
+img.avatarNotif {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 2% 0 3% 2%;
+  padding: 1px;
+  vertical-align: middle;
+}
+/*----Notification text----*/
+#notifyPage p {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  display: inline-block;
+  font-size:  1.1em;
+  margin: 5px;
+  padding: 1px;
+}
+/*--Thumbnail images--*/
+img.profileImgs {
+  display: inline-block;
+  max-width: 40%;
+  height: auto;
+  border-radius: 4px;
+  padding: 1%;
+  margin: 0.5% 0 0 7%;
+}
+/*--User links--*/
+a.avtrLink {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 1%;
+  padding: 1px;
+}
+/*--Hashtag links on Notification page--*/
+a.hashLink {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #4267b2;
+  text-decoration: none;
+}
+/*----------Profile Pages 1-3------------*/
+#profilePage {
+  padding: 1%;
+  margin: 1%;
+}
+p.profileP {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #000000;
+  margin: 4% 5%;
+  padding: 0;
+}
+/*-----Profile Picture-----*/
+img.profilePic {
+  float: left;
+  display: block;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  margin: 0 6%;
+  padding: 2px;
+}
+/*---Followers and Following links---*/
+p.follow {
+  text-align: center;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #000000;
+  padding: 5px;
+  margin: 1% 10%;
+}
+/*---Follow button---*/
+a.followMe {
+    background-color: #1F6FAF;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 1% 2%;
+  }
+/*---HR to divide profile page and user posts on home page---*/
+hr {
+  border: 1px solid #000000;
+  opacity: 5%;
+  margin: 4%;
+}
+/*-----Short Bio and Edit Profile button------*/
+p.bio {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  color: #000000;
+  text-align: center;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+}
+a.editProfile {
+  background-color: #1F6FAF;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 25px;
+  margin: 1% 42%;
+}
+/*--Create a post via profile pages--*/
+.myPost {
+  text-align: center;
+  width: 100%;
+}
+form.btnForm {
+  margin: auto;
+  max-width: 250px;
+  padding: 2%;
+  display: inline-block;
+}
+form.btnForm input[type=text] {
+  padding: 5px;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #FFFFFF;
+}
+form.btnForm button {
+  float: left;
+  width: 16%;
+  padding: 3px;
+  background: #1F6FAF;
+  color: white;
+  font-size: 1em;
+  border: 1px solid grey;
+  border-left: none;
+}
+/*--Bookmark button--*/
+a.bookmark {
+  background-color: #1F6FAF;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 25px;
+  margin-left: 10.6%;
+}
+/*---Image grid on profile pages---*/
+.profileGrid {
+  display: flex;
+  padding: 0 4px;
+  flex-direction: row;
+  margin-left: 9%;
+}
+.profileColumn {
+  float: left;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 5%;
+}
+.profileGrid img {
+  max-width: 45%;
+  height: auto;
+  padding: 6px;
+}
+.profileGrid a {
+  text-decoration: none;
+}
+/*----------Settings Page----------*/
+#settingPage {
+  padding: 2%;
+}
+h2.editP {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  display: inline-block;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 3% 0;
+  padding: 2% 0 0 3%;
+}
+/*----Avatar Image----*/
+img.settingAvtr {
+  display: block;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  padding: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*---Change profile picture link--*/
+a.changePic {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: #4267b2;
+  width: 100%;
+  padding: 2%;
+}
+/*----Settings Form----*/
+form.setForm {
+  text-align: left;
+  padding: 1%;
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  margin: 1%;
+}
+#settingsForm label {
+  display: inline-block;
+  width: 10%;
+  padding: 1px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: left;
+  margin: 1%;
+}
+#settingsForm input {
+  display: inline-block;
+  width: 80%;
+  margin: 1% 0 3% 0.5%;
+  padding: 1%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+}
+/*---Account Privacy header---*/
+#settingsForm h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  display: inline-block;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-top: 1%;
+  padding-left: 1%;
+}
+/*--Log out link--*/
+#logOut {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #4267b2;
+  text-decoration: none;
+  margin: 2% 1%;
+  padding: 2px 1px;
+  outline: none;
+}
+/*---Delete account link--*/
+#userAcct {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #FF0000;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1%;
+  padding: 2px 1px;
+  outline: none;
+}
+/*--Labels for Account Privacy settings--*/
+#settingsForm .labelSwitch {
+  display: inline;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: left;
+  margin: 1% 0 0 1%;
+}
+/*--Account Privacy toggle switches--*/
+#settingsForm label.switch {
+  width: 5%;
+  display: block;
+}
+label.switch {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.switch::after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius:50%;
+  background-color: white;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s;
+}
+.checkbox:checked + .switch::after {
+  left : 20px;
+}
+.checkbox:checked + .switch {
+  background-color: #2196F3;
+}
+input.checkbox {
+  visibility: hidden;
+}
+/*-----------Bookmark Page---------*/
+#bookmarkPage {
+  padding: 1%;
+}
+/*--Bookmark Image Grid--*/
+.bookmark {
+  display: flex;
+  padding: 1%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 3% 0 0 8%;
+}
+.bookColumn {
+  float: left;
+  padding: 5px;
+  width: 100%;
+}
+.bookmark img {
+  max-width: 45%;
+  height: auto;
+  padding: 5px;
+}
+.bookmark a {
+  text-decoration: none;
+}
+/*--Videos on Bookmark page--*/
+.iframe-container {
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+iframe.bookVideo {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 45%;
+  padding: 0.5%;
+}
+h2.book {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 2%;
+}
+/*------------Responsive Media Queries-----------*/
+/*---Display-mode media query for launching app--*/
+@media all and (display-mode: standalone) {
+  body {
+    background-color: #2785CD;
+  }
+}
+/*----Small Mobile Devices (320 to 480px)---*/
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  body {
+    background-image: none;
+  }
+/*---Login Page--*/
+  #wrap {
+    margin-top: 3%;
+  }
+  h2.login-title {
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    width: 100%;
+  }
+  #logo1 {
+    max-width: 20%;
+    height: auto;
+    margin: 2% 0 3% 0;
+  }
+  form.loginForm {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    padding: 2%;
+  }
+  #log input {
+    width: 100%;
+    height: auto;
+    margin: 1%;
+    padding: 3%;
+  }
+  #log label {
+    padding-top: 1%;
+    margin: 1% 2% 1% 1%;
+  }
+  a.login-btn1 {
+    display: inline;
+    height: auto;
+    font-size: 0.8em;
+    padding: 0;
+  }
+  a.login-btn2 {
+    display: inline;
+    height: auto;
+    font-size: 0.8em;
+    padding: 0;
+    margin-left: 22%;
+  }
+/*--Home page--*/
+#wrapper {
+  margin-bottom: 20%;
+  width: 100%;
+}
+#logo {
+  width: 15%;
+  height: auto;
+  padding: 1px;
+  margin: 0.5% 0 0.5% 0.5%;
+}
+header {
+  font-size: 0.7em;
+  padding: 2%;
+}
+h1 {
+  font-size: 2.2em;
+  margin: 3.5% 0 0 0.5%;
+}
+/*--main element on home page--*/
+#homePage {
+  margin: 4% 1% 0 1%;
+  padding: 2%;
+}
+img.profileAvtr {
+  display: inline;
+  width: 2.5em;
+  height: 2.5em;
+  margin: 1% 0 1% 2%;
+  padding: 2px;
+}
+a.userLink, p.userLink3, p.userText {
+  font-size: 0.9em;
+  margin: 0 1% 2% 2%;
+  padding: 1px;
+  display: inline;
+}
+p.userText {
+  margin: 0 0 2% 0;
+}
+/*--User Comment on first post--*/
+a.userLink3 {
+  font-size: 1em;
+  margin: 0 0 1% 2%;
+}
+p.userText3 {
+  display: inline;
+  font-size: 0.9em;
+  padding: 1px;
+}
+#clickme, #clickme1 {
+  margin: 1% 1% 1% 2%;
+  font-size: 0.8em;
+}
+a.hashtag {
+  font-size: 0.9em;
+  margin: 2.5% 1% 0.5% 0.5%;
+  padding: 1%;
+  display: inline-block;
+}
+/*--Fontawesome icons--*/
+i {
+  margin: 3% 1% 1% 2%;
+  font-size: 1.2em;
+}
+a i {
+  margin-left: 2%;
+}
+ .fa-bookmark {
+  float: right;
+  margin: 3% 3% 0 0;
+}
+/*--Icon Navigation Menu--*/
+ul {
+  width: 100%;
+}
+a.navBtn {
+  font-size: 0.6em;
+  margin: 0 6% 0 6%;
+}
+li a {
+  font-size: 0.6em;
+  padding: 2%;
+}
+/*--Search Page--*/
+.search {
+  text-align: center;
+  width: 100%;
+}
+a.hashtag2 {
+  margin: 1% 0 1% 8%;
+  display: inline-block;
+}
+form.searchBox {
+    text-align: center;
+    height: auto;
+  }
+  form.searchBox input[type=text] {
+    padding: 2%;
+    font-size: 0.9em;
+    width: 70%;
+    margin: 4% 0 1% 10%;
+  }
+  form.searchBox button {
+    width: 10%;
+    padding: 1.8%;
+    margin: 4% 2% 0 0;
+  }
+  /*--Image grids for Search & Profile pages--*/
+.imageGrid, .profileGrid {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.imageGrid img {
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+}
+.profileGrid img {
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+}
+iframe.searchVideo {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+/*---Notifications Page---*/
+#notifyPage {
+  padding: 2%;
+}
+#notifyPage h2 {
+  font-size:  1em;
+  margin: 10% 0 4% 3%;
+}
+/*--Avatar images--*/
+img.avatarNotif {
+  width: 40px;
+  height: 40px;
+  margin: 2% 0 5% 3%;
+}
+#notifyPage p {
+  display: inline;
+  font-size:  0.9em;
+  margin: 0 1%;
+}
+a.avtrLink {
+  font-size: 0.9em;
+  margin: 0;
+}
+a.hashLink {
+  font-size: 0.9em;
+}
+img.profileImgs {
+  width: 50%;
+  margin: 1% 1% 2% 16%;
+  vertical-align: middle;
+}
+/*---Profile Pages 1-3---*/
+p.profileP {
+  font-size: 0.8em;
+  margin: 10% 5% 5% 4%;
+  padding: 1px;
+}
+img.profilePic {
+  width: 60px;
+  height: 60px;
+  margin: 2% 1% 2% 4%;
+  padding: 1px;
+}
+p.follow {
+  font-size: 0.8em;
+  padding: 4% 2% 6% 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+a.followMe {
+    font-size: 0.8em;
+    padding: 2%;
+    margin: 1% 0 4% 5%;
+    vertical-align: middle;
+  }
+p.bio {
+    font-size: 0.8em;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+    display: inline-block;
+  }
+  a.editProfile {
+    font-size: 0.7em;
+    padding: 3%;
+    margin: 0 37% 2% 37%;
+  }
+/*--Create a post button--*/
+  form.btnForm {
+    width: 100%;
+    height: auto;
+    padding: 4%;
+    display: inline-block;
+    margin: 1% 20% 4% 20%;
+  }
+  form.btnForm input[type=text] {
+    padding: 2%;
+    font-size: 0.8em;
+    width: 60%;
+  }
+  form.btnForm button {
+    width: 15%;
+    padding: 1.3%;
+    font-size: 0.8em;
+  }
+  a.bookmark {
+    font-size: 0.8em;
+    padding: 2%;
+    float: right;
+    margin-right: 8%;
+  }
+/*--Settings 1-3 Pages--*/
+#settingPage {
+  padding: 3%;
+}
+h2.editP {
+  display: inline-block;
+  font-size: 1.1em;
+  margin: 6% 0;
+  padding: 2%;
+}
+img.settingAvtr {
+  width: 3.5em;
+  height: 3.5em;
+}
+a.changePic {
+  font-size: 0.8em;
+  padding: 4%;
+}
+#settingsForm label {
+  width: 24%;
+  font-size: 0.9em;
+  margin: 1%;
+  padding: 3% 1%;
+}
+#settingsForm h2 {
+  font-size: 1.1em;
+  padding: 0 0 3% 1%;
+}
+#settingsForm input {
+  width: 72%;
+}
+#settingsForm .labelSwitch {
+  display: inline;
+  font-size: 1em;
+  padding: 2% 0 1% 0;
+}
+#userAcct {
+  font-size: 1em;
+}
+#logOut {
+  font-size: 1em;
+  margin: 3% 1%;
+  padding-bottom: 2%;
+}
+/*--Toggle switches--*/
+#settingsForm label.switch {
+  width: 15%;
+  display: block;
+}
+.switch {
+  position: relative;
+  width: 100%;
+}
+/*------Bookmark Page-----*/
+h2.book {
+  font-size: 1.1em;
+  margin: 2%;
+  padding: 4% 0 1% 0;
+}
+hr {
+  margin: 2%;
+}
+.bookmark {
+  padding: 0 2%;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bookmark img {
+  max-width: 100%;
+  padding: 6px;
+}
+.iframe-container {
+    position: relative;
+    padding-top: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+iframe.bookVideo {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+}
+/*---Small to Large Tablets (<= 768px)---*/
+@media only screen and (max-width: 786px) and (min-width: 600px) {
+  body {
+    background-image: none;
+  }
+  h2.login-title {
+    margin: 3% 0 2% 0;
+  }
+  /*--Site logo on Login page---*/
+  #logo1 {
+    max-width: 14%;
+    margin: 2% 0 2% 0;
+  }
+  .container {
+    max-width: 100%;
+  }
+/*--div Wrapper element--*/
+  #wrapper {
+    margin-bottom: 15%;
+    width: 100%;
+  }
+/*----Home page----*/
+  header {
+    font-size: 0.9em;
+    padding: 1%;
+  }
+  h1 {
+    font-size: 2.4em;
+    margin: 2.8% 0 0 0.5%;
+  }
+/*--Main element--*/
+  #homePage {
+    margin: 3% 0 0 0.5%;
+  }
+/*--Site logo image--*/
+  #logo {
+    width: 10%;
+    height: auto;
+    margin: 1% 0 1% 1%;
+  }
+/*--Profile Avatars--*/
+  img.profileAvtr {
+    width: 2.6em;
+    height: 2.6em;
+    margin: 1% 0 1% 1%;
+  }
+/*--User image posts--*/
+  img.userPost {
+    padding-bottom: 1%;
+  }
+  a.userLink, p.userLink3 {
+    margin: 2% 0.5% 2% 2%;
+    display: inline;
+    padding: 1px;
+  }
+  p.userText {
+    padding: 1% 0 2% 2%;
+  }
+  a.userLink3 {
+    font-size: 1.1em;
+    margin: 4% 1% 2% 2%;
+    display: inline;
+    padding: 2px;
+  }
+  p.userText3 {
+    display: inline;
+    margin: 0 1% 0 0.5%;
+    padding: 1%;
+  }
+  a.hashtag {
+    font-size: 1em;
+    margin: 3% 0 1.2% 1.2%;
+    padding: 2px;
+  }
+/*--Fontawesome icons--*/
+i {
+  margin: 1% 1% 1% 2%;
+}
+a i {
+  margin: 1% 1% 0.5% 1%;
+}
+  .fa-bookmark {
+    float: right;
+    margin: 1% 2% 0 0;
+  }
+  #clickme, #clickme1 {
+    margin: 1% 0 1% 2%;
+    padding: 1px;
+}
+  /*--Icon Navigation Menu--*/
+  ul {
+    padding: 2%;
+    width: 100%;
+    }
+  a.navBtn {
+    font-size: 0.6em;
+  }
+  li a {
+    font-size: 0.7em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/*-----Search Page-----*/
+form.searchBox input[type="text"] {
+    margin: 3% 0 2% 4%;
+    padding: 2%;
+    font-size: 0.9em;
+    width: 82%;
+}
+form.searchBox button {
+    width: 8%;
+    padding: 1.7%;
+    margin: 3% 2% 0 0;
+}
+a.hashtag2 {
+  font-size: 0.9em;
+  margin: 2% 0 2% 3%;
+  padding: 2px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #4267b2;
+}
+/*---Image Grid on Search Page---*/
+.imageGrid {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+}
+.imageGrid img {
+  max-width: 100%;
+  padding: 8px;
+}
+iframe.searchVideo {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+}
+/*---Notifications Page---*/
+#notifyPage {
+  padding: 2%;
+}
+img.avatarNotif {
+  width: 3em;
+  height: 3em;
+  margin: 2% 0 4% 3%;
+}
+#notifyPage h2 {
+  margin: 5% 0 5% 3%;
+  font-size: 1.3em;
+  padding: 1px;
+}
+#notifyPage p {
+  font-size: 1em;
+}
+a.avtrLink {
+  font-size: 1em;
+}
+img.profileImgs {
+  margin: 0.5% 14%;
+  width: 40%;
+}
+main p {
+  font-size: 1em;
+}
+a.hashLink {
+  font-size: 0.9em;
+}
+/*---Profile Pages 1-3---*/
+p.profileP {
+  margin: 9% 5% 5% 4%;
+  font-size: 1em;
+}
+img.profilePic {
+  width: 4em;
+  height: 4em;
+  margin: 1% 1% 2% 5%;
+  padding: 1px;
+}
+p.follow {
+  margin: 1% 7%;
+}
+a.followMe {
+  padding: 1.8%;
+  margin: 2%;
+  }
+p.bio {
+  font-size: 1em;
+  }
+a.editProfile {
+  padding: 2%;
+  margin: 2% 40%;
+}
+a.bookmark {
+  font-size: 0.9em;
+  margin: 4% 0 0 3%;
+  padding: 1.8%;
+}
+.profileGrid {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+}
+.profileGrid img {
+  max-width: 100%;
+  height: auto;
+  padding: 8px;
+}
+/*----Settings Pages 1-3----*/
+/*--main h2 header--*/
+h2.editP {
+  font-size: 1.2em;
+}
+#settingsForm .editP {
+  margin: 2% 0 5% 0;
+  font-size: 1.2em;
+}
+img.settingAvtr {
+  width: 4em;
+  height: 4em;
+  padding: 2px;
+}
+a.changePic {
+  font-size: 0.9em;
+  padding-bottom: 4%;
+}
+#settingsForm label {
+    width: 13%;
+    padding: 1px;
+    font-size: 1em;
+    margin: 1% 4% 1% 1%;
+}
+#settingsForm .labelSwitch {
+  display: inline;
+  padding: 1% 0 2% 0;
+  font-size: 1em;
+}
+#userAcct {
+  font-size: 1em;
+}
+#logOut {
+  margin: 4% 0 0 1%;
+  padding-bottom: 2%;
+  font-size: 1em;
+}
+/*--Toggle Switches--*/
+#settingsForm label.switch {
+  width: 8%;
+  padding: 2px;
+  display: block;
+}
+/*--Bookmark Page--*/
+h2.book {
+  margin: 3% 2%;
+}
+.bookmark {
+  margin: 2% 8% 2%;
+}
+.bookmark img {
+  max-width: 100%;
+}
+iframe.bookVideo {
+width: 100%;
+height: 100%;
+}
+
+
+}

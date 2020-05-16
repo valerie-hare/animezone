@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Anime Zone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Bookmark page" content="Users can bookmark content for later.">
+    <!--Address Bar Theme Color-->
+    <meta name="theme-color" content="#2785CD" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/lightbox.css">
+    <link rel="manifest" href="/manifest.json">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/sitelogo.png">
+    <!--Roboto and Oswald web fonts via Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto&display=swap" rel="stylesheet">
+    <!--Font Awesome Icons kit code link-->
+    <script src="https://kit.fontawesome.com/be64fca70a.js" crossorigin="anonymous"></script>
+  </head>
+  <!--Bookmark body section-->
+  <body>
+      <div id="wrapper">
+        <!--Bookmark header section-->
+        <header>
+          <a href="index.html" aria-label="Site logo">
+            <img id="logo" src="images/sitelogo.png" alt="Home"></a>
+          <h1>Anime Zone</h1>
+        </header>
+        <!--Bookmark saved content-->
+        <main id="bookmarkPage">
+          <h2 class="book">Bookmarks</h2>
+          <hr>
+          <!--Image grid on Bookmark page-->
+          <div class="bookmark">
+            <div class="bookColumn">
+              <a href="images/couple.jpg" aria-label="Anime couple" data-lightbox="bookmarkImgs" data-title="Anime Couple">
+                <img src="images/couple.jpg" alt="Anime couple">
+              </a>
+              <a href="images/otaku.jpg" aria-label="Wotakoi" data-lightbox="bookmarkImgs" data-title="Wotakoi: Love Is Hard for Otaku">
+                <img src="images/otaku.jpg" alt="Wotakoi: Love Is Hard for Otaku">
+              </a>
+              <a href="images/tree.jpg" aria-label="Tree next to water" data-lightbox="bookmarkImgs" data-title="Tree">
+                <img src="images/tree.jpg" alt="Tree next to water">
+              </a>
+              <a href="images/girl_art.jpg" aria-label="Girl with pets" data-lightbox="bookmarkImgs" data-title="Girl with Pets">
+                <img src="images/girl_art.jpg" alt="Anime girl with pets">
+              </a>
+              <a href="images/asuna_kirito.jpg" aria-label="Asuna and Kirito" data-lightbox="bookmarkImgs" data-title="Asuna and Kirito">
+                <img src="images/asuna_kirito.jpg" alt="Asuna and Kirito">
+              </a>
+              <a href="images/asuna_kirito2.jpg" aria-label="Asuna and Kirito in Paris" data-lightbox="bookmarkImgs" data-title="Asuna and Kirito in Paris">
+                <img src="images/asuna_kirito2.jpg" alt="Asuna and Kirito in Paris">
+              </a>
+              <a href="images/wolfrain.jpg" aria-label="Wolf's Rain" data-lightbox="bookmarkImgs" data-title="Wolf's Rain">
+                <img src="images/wolfrain.jpg" alt="Wolf's Rain">
+              </a>
+              <a href="images/girlwithdog.jpg" aria-label="Girl with dog" data-lightbox="bookmarkImgs" data-title="Girl with Dog">
+                <img src="images/girlwithdog.jpg" alt="Girl with dog">
+              </a>
+              <!--Video element-->
+              <div class="iframe-container">
+                <iframe class="bookVideo" src="https://www.youtube.com/embed/2vn5AhBs11A"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+              </div>
+            </div>
+          </div>
+        </main>
+        <!--Icon navigation menu on Bookmark page-->
+        <ul>
+          <li><a class="navBtn" href="index.html"><i class="fas fa-home fa-lg"></i><br>Home</a></li>
+          <li><a class="navBtn" href="search.html"><i class="fas fa-search fa-lg"></i><br>Search</a></li>
+          <li><a class="navBtn" href="notifications.html"><i class="far fa-bell fa-lg"></i><br>Notifications</a></li>
+          <li><a class="navBtn" href="profile1.html"><i class="far fa-user fa-lg"></i><br>Profile</a></li>
+        </ul>
+      </div>
+    <!--External lightbox script file-->
+    <script src="scripts/lightbox-plus-jquery.js"></script>
+  </body>
+</html>

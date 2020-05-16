@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Anime Zone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="homepage" content="A social media site for adult anime fans.">
+    <!--Address Bar Theme Color-->
+    <meta name="theme-color" content="#2785CD" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="manifest" href="/manifest.json">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/sitelogo.png">
+    <!--Touch icon for iOS users-->
+    <link rel="apple-touch-icon" href="images/icons/touch-icon-iphone.png">
+    <!--Roboto and Oswald web fonts via Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto&display=swap" rel="stylesheet">
+    <!--Font Awesome Icons kit code link-->
+    <script src="https://kit.fontawesome.com/be64fca70a.js" crossorigin="anonymous"></script>
+  </head>
+  <!--Home page body section-->
+  <body>
+      <div id="wrapper">
+      <!--Home page header with site logo and title-->
+      <header>
+        <a href="index.html" aria-label="Site logo">
+          <img id="logo" src="images/sitelogo.png" alt="Home"></a>
+        <h1>Anime Zone</h1>
+      </header>
+      <!--Home page user content-->
+      <main id="homePage">
+      <!--First post on homepage feed-->
+      <a href="profile2.html" aria-label="erza_35">
+        <img class="profileAvtr" src="images/erza.jpg" alt="user erza_35"></a>
+      <a class="userLink" href="profile2.html" aria-label="Erza">erza_35</a>
+      <a href="profile2.html" aria-label="Anime Couple">
+        <img src="images/couple.jpg" alt="Anime couple" class="userPost"></a>
+      <!--Fontawesome Icons for home page top post (removed fa-o at end of icon tags)-->
+        <a href="#"><i aria-hidden="true" class="far fa-heart"></i></a>
+        <a href="#"><i aria-hidden="true" class="far fa-comment"></i></a>
+        <a href="#"><i aria-hidden="true" class="fas fa-share-alt"></i></a>
+        <a href="bookmark.html"><i aria-hidden="true" class="far fa-bookmark"></i></a>
+        <br>
+      <!--Likes counter button for user posts-->
+        <button id="clickme">0 likes</button><br>
+        <a class="userLink" href="profile2.html" aria-label="erza_35">erza_35</a>
+        <p class="userText">I love watching anime after work. What's your favorite show?</p>
+        <br>
+        <a class="hashtag" href="search.html" aria-label="Hashtag anime fan">#anime fan</a>
+        <a class="hashtag" href="search.html" aria-label="Hashtag adults love anime too">#adultsloveanimetoo</a><br>
+        <!--User Comments-->
+        <a class="userLink3" href="profile3.html" aria-label="lucy_29">lucy_29</a>
+        <p class="userText">Fairy Tail is my favorite show!</p>
+          <a href="#" aria-label="Likes"><i class="far fa-heart fa-o"></i></a><br><br>
+        <hr>
+      <!--Second post on home page feed-->
+        <a href="profile3.html" aria-label="lucy_29">
+          <img class="profileAvtr" src="images/lucy.jpg" alt="user lucy_29"></a>
+        <a class="userLink" href="profile3.html" aria-label="lucy_29">lucy_29</a>
+        <a href="profile3.html" aria-label="Wolf's Rain">
+          <img src="images/wolfrain.jpg" alt="wolf's rain anime" class="userPost"></a>
+      <!--Fontawesome Icons for last post-->
+      <a href="#"><i aria-hidden="true" class="far fa-heart"></i></a>
+      <a href="#"><i aria-hidden="true" class="far fa-comment"></i></a>
+      <a href="#"><i aria-hidden="true" class="fas fa-share-alt"></i></a>
+      <a href="bookmark.html"><i aria-hidden="true" class="far fa-bookmark"></i></a>
+      <br>
+      <!--Second Likes counter button for user posts-->
+       <button id="clickme1">0 likes</button><br>
+        <a class="userLink" href="profile3.html" aria-label="lucy_29">lucy_29</a>
+        <p class="userText3">Wolf's Rain is a sad anime, but the characters made
+          it a great show.</p>
+      </main>
+        <!--Icon navigation menu on home page-->
+          <ul>
+            <li><a class="navBtn" href="index.html"><i aria-hidden="true" class="fas fa-home fa-lg"></i><br>Home</a></li>
+            <li><a class="navBtn" href="search.html"><i aria-hidden="true" class="fas fa-search fa-lg"></i><br>Search</a></li>
+            <li><a class="navBtn" href="notifications.html"><i aria-hidden="true" class="far fa-bell fa-lg"></i><br>Notifications</a></li>
+            <li><a class="navBtn" href="profile1.html"><i aria-hidden="true" class="far fa-user fa-lg"></i><br>Profile</a></li>
+          </ul>
+      </div>
+    <!--External main script file-->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

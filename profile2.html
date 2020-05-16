@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Anime Zone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Profile 2" content="erza_35's profile page on Anime Zone.">
+    <!--Address Bar Theme Color-->
+    <meta name="theme-color" content="#2785CD" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/lightbox.css">
+    <link rel="manifest" href="/manifest.json">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/sitelogo.png">
+    <!--Roboto and Oswald web fonts via Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto&display=swap" rel="stylesheet">
+    <!--Font Awesome Icons kit code link-->
+    <script src="https://kit.fontawesome.com/be64fca70a.js" crossorigin="anonymous"></script>
+  </head>
+  <!--Profile 2 page body section-->
+  <body>
+      <div id="wrapper">
+        <!--Profile 2 page header section-->
+        <header>
+          <a href="index.html" aria-label="Site logo">
+            <img id="logo" src="images/sitelogo.png" alt="Home"></a>
+          <h1>Anime Zone</h1>
+        </header>
+        <!--Profile 2 user content-->
+        <main id="profilePage">
+          <p class="profileP">erza_35</p><br>
+          <img src="images/erza.jpg" alt="user erza_35" class="profilePic">
+          <p class="follow"><strong>10</strong><br>followers</p>
+          <p class="follow"><strong>25</strong><br>following</p>
+          <a href="profile2.html" class="followMe" aria-label="Follow">Follow</a>
+          <hr>
+          <!--Profile 2 short bio and edit profile button-->
+          <p class="bio">Anime lover living in Tokyo with my family.<br>
+            I enjoy reading manga, watching anime,
+            and drinking boba tea.</p>
+          <a href="settings2.html" class="editProfile" aria-label="Edit profile">Edit profile</a>
+          <hr>
+          <!--Create a new post via profile page 2-->
+          <div class="myPost">
+            <form method="get" class="btnForm">
+              <input type="text" placeholder="Create a post">
+              <button type="submit"><i aria-hidden="true" class="fas fa-plus-circle"></i></button>
+            </form>
+          </div><br>
+          <!--Button to Bookmark page-->
+          <a href="bookmark.html" class="bookmark" aria-label="Bookmark">Bookmarks</a>
+          <!--Image grid on profile 2 page-->
+          <div class="profileGrid">
+            <div class="profileColumn">
+              <a href="images/erza_gray.jpg" aria-label="Erza and Gray" data-lightbox="profileImgs" data-title="Erza and Gray">
+                <img src="images/erza_gray.jpg" alt="Erza and Gray">
+              </a>
+              <a href="images/erza.jpg" aria-label="Erza" data-lightbox="profileImgs" data-title="Erza">
+                <img src="images/erza.jpg" alt="Erza">
+              </a>
+              <a href="images/fairytail.jpg" aria-label="Fairy Tail" data-lightbox="profileImgs" data-title="Fairy Tail">
+                <img src="images/fairytail.jpg" alt="Fairy Tail">
+              </a>
+              <a href="images/otaku.jpg" aria-label="Wotokoi" data-lightbox="profileImgs" data-title="Wotakoi: Love Is Hard for Otaku">
+                <img src="images/otaku.jpg" alt="Wotakoi: Love Is Hard for Otaku">
+              </a>
+              <a href="images/couple.jpg" aria-label="Anime couple" data-lightbox="profileImgs" data-title="Anime Couple">
+                <img src="images/couple.jpg" alt="Anime couple">
+              </a>
+              <a href="images/wolfgirl.jpg" aria-label="Wolf girl" data-lightbox="profileImgs" data-title="Wolf Girl">
+                <img src="images/wolfgirl.jpg" alt="Wolf girl">
+              </a>
+            </div>
+          </div>
+        </main>
+        <!--Icon navigation menu on Profile 2 page-->
+        <ul>
+          <li><a class="navBtn" href="index.html"><i class="fas fa-home fa-lg"></i><br>Home</a></li>
+          <li><a class="navBtn" href="search.html"><i class="fas fa-search fa-lg"></i><br>Search</a></li>
+          <li><a class="navBtn" href="notifications.html"><i class="far fa-bell fa-lg"></i><br>Notifications</a></li>
+          <li><a class="navBtn" href="profile1.html"><i class="fas fa-user fa-lg"></i><br>Profile</a></li>
+        </ul>
+      </div>
+    <!--External lightbox script file-->
+    <script src="scripts/lightbox-plus-jquery.js"></script>
+  </body>
+</html>

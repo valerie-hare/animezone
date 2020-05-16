@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Anime Zone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Settings Page 2" content="Users can edit their profile and privacy settings.">
+    <!--Address Bar Theme Color-->
+    <meta name="theme-color" content="#2785CD" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="manifest" href="/manifest.json">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/sitelogo.png">
+    <!--Roboto and Oswald web fonts via Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto&display=swap" rel="stylesheet">
+    <!--Font Awesome Icons kit code link-->
+    <script src="https://kit.fontawesome.com/be64fca70a.js" crossorigin="anonymous"></script>
+  </head>
+  <!--Settings 2 body section-->
+  <body>
+      <div id="wrapper">
+        <!--Settings 2 header section-->
+        <header>
+          <a href="index.html" aria-label="Site logo">
+            <img id="logo" src="images/sitelogo.png" alt="Home"></a>
+            <h1>Anime Zone</h1>
+        </header>
+        <!--Edit Profile on Settings 2 page-->
+        <main id="settingPage">
+          <h2 class="editP">Edit Profile</h2><br>
+          <img src="images/erza.jpg" alt="user erza_35" class="settingAvtr">
+          <a href="settings2.html" class="changePic" aria-label="Change profile picture">Change profile picture</a>
+          <!--Settings 2 Form-->
+          <div id="settingsForm">
+            <form method="get" class="setForm" action="settings2.html">
+              <label for="myName">Name</label>
+                <input type="text" name="myName" id="myName" placeholder="Sarah Chu">
+              <br>
+              <label for="myEmail">Email</label>
+                <input type="email" name="myEmail" id="myEmail" placeholder="erza_35@gmail.com">
+              <br>
+              <label for="myPass">Password</label>
+                <input type="password" name="myPass" id="myPass" placeholder="**********">
+              <br>
+              <label for="myBio">Bio</label>
+              <input type="text" name="myBio" id="myBio" placeholder="Anime lover living in Tokyo. I love reading manga, watching anime, and drinking boba tea.">
+              <br>
+              <hr>
+              <!--Account Privacy Section-->
+              <h2 class="editP">Account Privacy</h2>
+              <br>
+              <!--Toggle switches-->
+              <label class="labelSwitch">Private account</label>
+                <input type="checkbox" id="toggle1" class="checkbox">
+              <label for="toggle1" class="switch"></label>
+              <br>
+              <label class="labelSwitch">Push notifications</label>
+                <input type="checkbox" id="toggle2" class="checkbox">
+              <label for="toggle2" class="switch"></label>
+              <br>
+              <a href="login.html" id="userAcct" aria-label="Delete account">Delete account</a>
+              <br><br>
+              <a href="login.html" id="logOut" aria-label="Log out">Log out</a>
+              <br>
+            </form>
+          </div>
+        </main>
+        <!--Icon navigation menu on Settings 2 page-->
+        <ul>
+          <li><a class="navBtn" href="index.html"><i class="fas fa-home fa-lg"></i><br>Home</a></li>
+          <li><a class="navBtn" href="search.html"><i class="fas fa-search fa-lg"></i><br>Search</a></li>
+          <li><a class="navBtn" href="notifications.html"><i class="far fa-bell fa-lg"></i><br>Notifications</a></li>
+          <li><a class="navBtn" href="profile2.html"><i class="fas fa-user fa-lg"></i><br>Profile</a></li>
+        </ul>
+      </div>
+    <!--External main file-->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
